@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+}
+
+.user-img {
+    justify-content: center;
+}
+
+.user {
+    border: 2px solid;
+    flex: 25%;
+    padding: 100px;
+    text-align: center;
+}
+
+.user span {
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.user center {
+    margin: 15px;
+}
